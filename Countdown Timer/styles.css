@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
+
+h1 {
+    color: #333;
+}
+
+.heading {
+    margin-bottom: 50px;
+    font-size: 70px;
+    color: blue;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#timer div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+#timer span {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.smalltext {
+    font-size: 12px;
+    color: #777;
+}
